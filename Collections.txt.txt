@@ -1,0 +1,56 @@
+users
+  - displayName: String
+  - email: String
+  expenses
+    - amount: Float
+    - category: Reference to categories collection
+    - description: String
+    - date: Timestamp
+
+categories
+  - name: String
+
+budgets
+  - amount: Float
+  - category: Reference to categories collection
+  - startDate: Timestamp
+  - endDate: Timestamp
+
+income
+  - amount: Float
+  - source: String
+  - date: Timestamp
+
+reports
+  - totalExpenses: Float
+  - expensesPerCategory: Map<String, Float>
+  - spendingTrends: Array of Objects { month: String, totalSpent: Float }
+
+currencyExchangeRates
+  - fromCurrency: String
+  - toCurrency: String
+  - exchangeRate: Float
+  - lastUpdated: Timestamp
+
+goals
+  - goalName: String
+  - targetAmount: Float
+  - currentAmount: Float
+  - targetDate: Timestamp
+
+reminders
+  - reminderName: String
+  - description: String
+  - reminderDate: Timestamp
+
+receipts
+  - imageUrl: String
+  - description: String
+  - date: Timestamp
+
+tags
+  - tagName: String
+
+notifications
+  - message: String
+  - date: Timestamp
