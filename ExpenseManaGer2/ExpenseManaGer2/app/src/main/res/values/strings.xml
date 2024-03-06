@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Expense ManaGer</string>
+    <string name="appbar_scrolling_view_behavior">androidx.coordinatorlayout.widget.AppBarLayout$ScrollingViewBehavior</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="default_web_client_id">857120619810-98l6ao4tf200jbrrge9kcns2l00b5nmr.apps.googleusercontent.com</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
