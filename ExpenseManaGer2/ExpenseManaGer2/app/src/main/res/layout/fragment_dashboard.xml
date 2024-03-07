@@ -5,6 +5,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:orientation="vertical"
     android:layout_height="match_parent"
+    android:paddingTop="60dp"
     tools:context=".DashboardFragment">
 
     <androidx.cardview.widget.CardView
@@ -184,7 +185,8 @@
             android:layout_marginRight="20dp"
             android:backgroundTint="#9329C1"
             app:fabSize="normal"
-            android:src="@drawable/income"/>
+            android:src="@drawable/income"
+            android:contentDescription="Add new item"/>
     </androidx.coordinatorlayout.widget.CoordinatorLayout>
 
 
