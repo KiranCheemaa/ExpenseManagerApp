@@ -32,7 +32,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:textAppearance="?android:textAppearanceLarge"
-                        android:textColor="@android:color/black"
+                        android:textColor="@color/green"
                         android:text="Income">
 
                     </TextView>
@@ -87,7 +87,7 @@
                         android:layout_height="wrap_content"
                         android:id="@+id/expense_set_data"
                         android:textAppearance="?android:textAppearanceLarge"
-                        android:textColor="@color/maroon"
+                        android:textColor="@color/black"
                         android:text="000.00">
 
                     </TextView>
@@ -119,7 +119,7 @@
                 android:id="@+id/expense_ft_text"
                 android:padding="5dp"
                 android:textColor="@android:color/white"
-                android:background="@color/toolbar"
+                android:background="@color/expense_color"
                 android:layout_gravity="center"
                 android:layout_marginRight="5dp"
                 android:visibility="invisible"
@@ -130,7 +130,7 @@
                 android:layout_height="wrap_content"
                 android:id="@+id/expense_Ft_btn"
                 android:layout_gravity="bottom|end"
-                android:backgroundTint="#FF03DAC5"
+                android:backgroundTint="#AE021C"
                 android:elevation="6dp"
                 app:fabSize="mini"
                 android:visibility="invisible"
@@ -154,7 +154,7 @@
                 android:id="@+id/income_ft_text"
                 android:textColor="@color/white"
                 android:padding="5dp"
-                android:backgroundTint="@color/nav"
+                android:background="@color/expense_color"
                 android:layout_gravity="center"
                 android:layout_marginRight="5dp"
                 android:visibility="invisible"
@@ -166,7 +166,7 @@
                 android:layout_height="wrap_content"
                 android:id="@+id/income_Ft_btn"
                 android:layout_gravity="bottom|end"
-                android:backgroundTint="#65E437"
+                android:backgroundTint="#035906"
                 android:elevation="6dp"
                 app:fabSize="mini"
                 app:pressedTranslationZ="12dp"
@@ -183,7 +183,7 @@
             android:layout_gravity="bottom|end"
             android:layout_marginBottom="16dp"
             android:layout_marginRight="20dp"
-            android:backgroundTint="#9329C1"
+            android:backgroundTint="@color/purple_700"
             app:fabSize="normal"
             android:src="@drawable/income"
             android:contentDescription="Add new item"/>
