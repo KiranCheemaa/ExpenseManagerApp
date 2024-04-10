@@ -20,6 +20,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_margin="5dp"
                 android:text="7 March 2024"
                 android:textColor="@color/maroon"
                 android:textAppearance="?android:textAppearanceSmall"

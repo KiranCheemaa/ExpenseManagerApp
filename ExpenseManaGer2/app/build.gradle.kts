@@ -5,14 +5,14 @@ plugins {
 }
 
 android {
-    namespace = "com.example.expensemanager"
+    namespace = "com.tracker.expensemanager"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.example.expensemanager"
+        applicationId = "com.tracker.expensemanager"
         minSdk = 24
         targetSdk = 34
-        versionCode = 1
+        versionCode = 2
         versionName = "1.0"
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"

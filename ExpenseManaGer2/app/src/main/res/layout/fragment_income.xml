@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    tools:context=".IncomeFragment"
+    tools:context="com.manage.expensemanager.com.tracker.expensemanager.IncomeFragment"
     android:paddingTop="60dp"
     android:orientation="vertical"
     android:background="#FFFDFD">

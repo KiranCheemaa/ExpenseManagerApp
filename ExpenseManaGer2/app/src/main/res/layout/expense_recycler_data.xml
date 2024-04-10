@@ -21,6 +21,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="7 March 2024"
+                android:layout_margin="5dp"
                 android:textColor="@color/maroon"
                 android:textAppearance="?android:textAppearanceSmall"
                 android:textStyle="bold"

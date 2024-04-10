@@ -9,7 +9,7 @@
       "client_info": {
         "mobilesdk_app_id": "1:857120619810:android:1284808b709be8063a797b",
         "android_client_info": {
-          "package_name": "com.example.expensemanager"
+          "package_name": "com.tracker.expensemanager"
         }
       },
       "oauth_client": [
